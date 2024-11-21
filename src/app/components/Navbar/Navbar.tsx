@@ -5,12 +5,12 @@ import { IoMenu } from "react-icons/io5";
 
 function Navbar() {
   return (
-    <div className="p-5">
-      <nav className="flex flex-row justify-between items-center w-full bg-opacity-10 rounded-full bg-white">
+    <div className="w-[95vw]">
+      <nav className="flex flex-row justify-between items-center w-full bg-opacity-10 backdrop-blur-sm rounded-full bg-white">
         <div className="font-bold px-4 m-3 text-[#56c17d] hover:text-[#86efac] hover:transition-colors duration-300 ease-in-out">
           <span className="cursor-pointer font-bold text-xl">{`{YA}`}</span>
         </div>
-        <div id="menus" className="hidden md:flex md:h-full">
+        <div id="menus" className="hidden md:flex md:h-full ">
           <ul className="flex flex-row items-center h-full">
             <li className="m-3 text-[#c0c6c2] hover:text-[#dde1de] hover:transition-colors duration-300 ease-in-out cursor-pointer">
               whoami
@@ -38,10 +38,8 @@ function Navbar() {
         <div id="smallmenu" className="md:hidden">
             {/* Hamburger menu */}
             {/* On click, a list should appear */}
-            <div className="flex md:hidden">
-                <div className="flex flex-col justify-between h-8 w-8 mx-6">
-                    <IoMenu size={"5x"} color="#56c17d"/>
-                </div>
+            <div className="flex justify-evenly pr-3 md:hidden">
+                    <IoMenu size={"2rem"} color="#56c17d"/>
             </div>
         </div>
       </nav>
