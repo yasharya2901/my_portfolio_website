@@ -16,7 +16,7 @@ function About() {
               <span className='px-5'>View My Work</span> <FaArrowRight /> 
             </div>
           </button>
-          <button className='text-gray-500 border-2 border-neutral-500 hover:text-gray-300 hover:border-neutral-100 duration-100 ease-in rounded-lg mx-5'>
+          <button className='text-gray-500 border-2 border-neutral-500 hover:text-gray-300 hover:border-neutral-400 duration-100 ease-in rounded-lg mx-5'>
             <div className='flex flex-row justify-center items-center py-3 px-4'>
               <span className='px-2'>Let's Connect</span> <FaArrowRight /> 
             </div>
