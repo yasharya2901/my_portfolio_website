@@ -23,7 +23,7 @@ function About() {
           </button>
         </div>
         <div id="jokes" className='text-gray-600 text-sm my-8 mb-20'>
-          <p>{`// Fun fact: I debug with println() and I&apos;m not ashamed of it`}</p>
+          <p>{`// Fun fact: I debug with println() and I'm not ashamed of it`}</p>
           <p>{`// Another one: My code is like my coffe - strong, reliable, and occasionally bitter`}</p>
         </div>
 
