@@ -42,13 +42,13 @@ function CodeBlock() {
             <span className="text-purple-400">return</span> Engineer{`{`}
             </p>
             <p className="ml-8">
-            <span className="text-neutral-400">name:</span> <span className="text-green-400">"Yash Arya"</span>,
+            <span className="text-neutral-400">name:</span> <span className="text-green-400">&quot;Yash Arya&quot;</span>,
             </p>
             <p className="ml-8">
-            <span className="text-neutral-400">location:</span> <span className="text-green-400">"Bengaluru, India"</span>,
+            <span className="text-neutral-400">location:</span> <span className="text-green-400">&quot;Bengaluru, India&quot;</span>,
             </p>
             <p className="ml-8">
-            <span className="text-neutral-400">role:</span> <span className="text-green-400">"Backend Engineer"</span>,
+            <span className="text-neutral-400">role:</span> <span className="text-green-400">&quot;Backend Engineer&quot;</span>,
             </p>
             <p className="ml-4">{`}`}</p>
             <p>{`}`}</p>
