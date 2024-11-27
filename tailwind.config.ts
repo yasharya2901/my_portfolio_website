@@ -14,7 +14,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        sans: ['var(--font-fira-code)', ...fontFamily.sans],
+        fira: ['var(--font-fira-code)', ...fontFamily.sans],
       }
     },
   },

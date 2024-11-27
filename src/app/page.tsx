@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <About/>
       </div>
-      <div className="bg-[#262626]">
+      <div className="bg-[#262626] md:flex md:justify-center">
         <WhoAmI/>
       </div>
     </div>
