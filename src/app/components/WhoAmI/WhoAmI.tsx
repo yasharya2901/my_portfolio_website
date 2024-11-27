@@ -25,10 +25,10 @@ function AboutMe() {
             </div>
             <div className={`flex flex-col gap-6 mt-6 max-w-sm text-neutral-300`}>
                 <p>
-                    Currently building the future of fintech at Wealthy, where I architect and develop Go microservices that handle real-time financial data. My tech stack includes the Go-Gin Framework, Django, and a variety of cloud-native tools.
+                    {`Currently building the future of fintech at Wealthy, where I architect and develop Go microservices that handle real-time financial data. My tech stack includes the Go-Gin Framework, Django, and a variety of cloud-native tools.`}
                 </p>
                 <p>
-                    My approach to engineering is like my approach to solving a Rubik's cube - methodical, pattern-oriented, and occasionally involves staying up too late trying to figure out why something isn't aligned properly.
+                    {`My approach to engineering is like my approach to solving a Rubik's cube - methodical, pattern-oriented, and occasionally involves staying up too late trying to figure out why something isn't aligned properly.`}
                 </p>
                 <div>
                     <FunFact />
