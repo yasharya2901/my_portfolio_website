@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaArrowRight, FaHamburger } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 
 function Navbar() {

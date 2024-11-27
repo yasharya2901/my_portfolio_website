@@ -4,7 +4,7 @@ function WhoAmI() {
   return (
     <div className='flex flex-row'>
         <div className='flex flex-col gap-4'>
-            <div className='text-[#4ADE80]'>/* about_me.go */</div>
+            <div className='text-[#4ADE80]'>{`/* about_me.go */`}</div>
             <div className='bg-[#171717] p-8 pr-32 rounded-xl'>
                 <CodeBlock/>
             </div>
