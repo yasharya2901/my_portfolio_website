@@ -1,8 +1,9 @@
 import React from 'react'
+import LanguageTag from '../LanguageTag'
 
 function WhoAmI() {
   return (
-    <div className='flex flex-col-reverse md:flex-row md:justify-around pt-14 p-4 gap-10 max-w-[1080px]'>
+    <div className='flex flex-col-reverse md:flex-row md:justify-around pt-14 p-4 gap-3 max-w-[1080px]'>
         <div className='flex flex-col gap-4 m-2 mt-10 md:m-2'>
             <div className='text-[#4ADE80]'>{`/* about_me.go */`}</div>
             <div className='bg-[#171717] p-8 pr-32 rounded-xl'>
@@ -18,12 +19,14 @@ function WhoAmI() {
 
 
 function AboutMe() {
+    const myLanguages: string[] = ['Go', 'Python', 'JavaScript', 'TypeScript', 'Java', 'C++']
+
     return (
         <div className={`m-2`}>
             <div className={`text-3xl font-bold text-white`}>
                 About Me
             </div>
-            <div className={`flex flex-col gap-6 mt-6 max-w-sm text-neutral-300`}>
+            <div className={`flex flex-col gap-6 mt-6 text-neutral-300`}>
                 <p>
                     {`Currently building the future of fintech at Wealthy, where I architect and develop Go microservices that handle real-time financial data. My tech stack includes the Go-Gin Framework, Django, and a variety of cloud-native tools.`}
                 </p>
@@ -33,6 +36,12 @@ function AboutMe() {
                 <div>
                     <FunFact />
                 </div>
+                <div>
+                    <h3 className='text-white font-bold mb-2'>Core Technologies:</h3>
+                    <div>
+                        {myLanguages.map((lang, index) => (<LanguageTag key={index} lang={lang}/>))}
+                    </div>
+                </div>
             </div>
         </div>
     )
@@ -40,8 +49,9 @@ function AboutMe() {
 
 function FunFact() {
     return (
-        <div>
-
+        <div className={`bg-[#171717] p-4 rounded-xl text-sm`}>
+            <span className='font-fira text-[#4ADE80] block'>{`// Fun fact:`}</span>
+            <span className='text-neutral-400'>I write such good code that my rubber duck debugging sessions turned into TED talks.</span>
         </div>
     )
 }
