@@ -39,7 +39,7 @@ function AboutMe() {
                 <div>
                     <h3 className='text-white font-bold mb-2'>Core Technologies:</h3>
                     <div>
-                        {myLanguages.map((lang, index) => (<LanguageTag key={index} lang={lang}/>))}
+                        {myLanguages.map((lang, index) => (<LanguageTag key={index} lang={lang} textColor='text-[#4ADE80]' />))}
                     </div>
                 </div>
             </div>

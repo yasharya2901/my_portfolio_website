@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import TechnicalStacks from "./components/TechnicalStacks";
 import WhoAmI from "./components/WhoAmI";
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
       </div>
       <div className="bg-[#262626] md:flex md:justify-center">
         <WhoAmI/>
+      </div>
+      <div>
+        <TechnicalStacks/>
       </div>
     </div>
   );
