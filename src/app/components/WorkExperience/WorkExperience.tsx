@@ -33,7 +33,7 @@ function WorkExperience() {
                 <ExperienceCard key={index} fileName={obj.fileName} role={obj.role} company={obj.company} duration={obj.duration} points={obj.points} techStacks={obj.techStacks} />
             ))}
         </div>
-        <div className='flex flex-col pt-10 max-w-5xl px-4 font-fira text-sm text-neutral-500 items-center justify-center'>
+        <div className='flex flex-col pt-10 max-w-5xl px-4 font-fira text-sm text-neutral-500 items-center justify-center mx-auto'>
           <div>{`# Fun fact: My git commit messages are better than my dating profile`}</div>
           <div>{`# Also: I debug in production because I like to live dangerously (just kidding)`}</div>
         </div>
