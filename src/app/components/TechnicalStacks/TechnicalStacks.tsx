@@ -56,7 +56,7 @@ const toolsAndFrameworks = [
 
 function TechnicalStacks() {
   return (
-    <div className={`bg-[#171717] p-4`}>
+    <div className={`bg-[#171717] p-4 pb-20`}>
         <div className={`flex flex-col items-center my-4`}>
             <h2 className={`text-white font-sans text-3xl font-bold my-4`}>Technical Stacks</h2>
             <p className={`text-neutral-400 my-2`}>{`// The tools I debug with`}</p>
@@ -73,11 +73,9 @@ function TechnicalStacks() {
                     </div>
                     <div className='ml-8'>
                         {programmingLanguages.map((obj, index) => (
-                            <>
-                                <div key={index} className='m-1'>
-                                    <LanguageTag lang={obj.tag} textColor='text-green-300' backgroundColor='bg-neutral-700' /> <span className={`text-sm text-neutral-400`}>{obj.comment}</span>
-                                </div>
-                            </>
+                            <div key={index} className='m-1'>
+                                <LanguageTag lang={obj.tag} textColor='text-green-300' backgroundColor='bg-neutral-700' /> <span className={`text-sm text-neutral-400`}>{obj.comment}</span>
+                            </div>
                         ))}
                     </div>
                     <div>

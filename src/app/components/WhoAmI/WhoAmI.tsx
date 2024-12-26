@@ -3,7 +3,7 @@ import LanguageTag from '../LanguageTag'
 
 function WhoAmI() {
   return (
-    <div className='flex flex-col-reverse md:flex-row md:justify-around pt-14 p-4 gap-3 max-w-[1080px]'>
+    <div className='flex flex-col-reverse md:flex-row md:justify-around pt-14 p-4 gap-3 max-w-[1080px] pb-14'>
         <div className='flex flex-col gap-4 m-2 mt-10 md:m-2'>
             <div className='text-[#4ADE80]'>{`/* about_me.go */`}</div>
             <div className='bg-[#171717] p-8 pr-32 rounded-xl'>

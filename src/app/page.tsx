@@ -2,6 +2,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TechnicalStacks from "./components/TechnicalStacks";
 import WhoAmI from "./components/WhoAmI";
+import WorkExperience from "./components/WorkExperience";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div>
         <TechnicalStacks/>
+      </div>
+      <div>
+        <WorkExperience/>
       </div>
     </div>
   );
