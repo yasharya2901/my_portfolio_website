@@ -3,7 +3,7 @@ import LanguageTag from '../LanguageTag'
 
 function ExperienceCard({fileName, role, company, duration, points, techStacks}: {fileName: string, role: string, company: string, duration: string, points: string[], techStacks: string[]}) {
   return (
-    <div className='flex flex-col bg-neutral-900 hover:bg-neutral-900/80 hover:transform transition-all rounded-xl p-6'>
+    <div className='flex flex-col bg-neutral-900 hover:bg-neutral-900/80 hover:transform transition-all rounded-xl p-6 hover:scale-[1.01]'>
       <div className='flex flex-row justify-between'>
         <div className='flex flex-col items-start gap-4'>
             <div className='font-fira text-green-500'>{fileName}</div>
@@ -17,9 +17,10 @@ function ExperienceCard({fileName, role, company, duration, points, techStacks}:
         </div>
       </div>
       <div className='m-4'>
+        {/* Terminal like points */}
         <ul className='list-disc'>
             {points.map((point, index) => (
-                <li key={index} className='text-neutral-200'>{point}</li>
+                <li key={index} className='text-neutral-200 font-fira text-sm py-1'>{point}</li>
             ))}
         </ul>
       </div>
