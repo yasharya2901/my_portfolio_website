@@ -1,4 +1,5 @@
 import About from "./components/About";
+import FeaturedProjects from "./components/FeaturedProjects";
 import Navbar from "./components/Navbar";
 import TechnicalStacks from "./components/TechnicalStacks";
 import WhoAmI from "./components/WhoAmI";
@@ -21,6 +22,9 @@ export default function Home() {
       </div>
       <div>
         <WorkExperience/>
+      </div>
+      <div>
+        <FeaturedProjects/>
       </div>
     </div>
   );
