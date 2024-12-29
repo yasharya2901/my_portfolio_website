@@ -1,10 +1,9 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard'
 import { FaPython, FaServer } from 'react-icons/fa'
-import { title } from 'process'
 import { TbWorld } from 'react-icons/tb'
 
-let myProjects = [
+const myProjects = [
     {
         title: 'Custom Multithreaded HTTP Server',
         description: 'Implemented a multithreaded application to understand TCP and HTTP/1.1 protocol design. Because who needs sleep when you can handle concurrent connections?',
