@@ -1,6 +1,7 @@
 import About from "./components/About";
 import EducationDetails from "./components/EducationDetails";
 import FeaturedProjects from "./components/FeaturedProjects";
+import FunCorner from "./components/FunCorner";
 import Navbar from "./components/Navbar";
 import TechnicalStacks from "./components/TechnicalStacks";
 import WhoAmI from "./components/WhoAmI";
@@ -29,6 +30,9 @@ export default function Home() {
       </div>
       <div>
         <EducationDetails/>
+      </div>
+      <div>
+        <FunCorner/>
       </div>
     </div>
   );
