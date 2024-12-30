@@ -14,8 +14,8 @@ const contactMethods = [
     },
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/yasharya2901",
-        preview: "linkedin.com/in/yasharya2901",
+        link: "https://www.linkedin.com/in/yasharya29",
+        preview: "linkedin.com/in/yasharya29",
         icon: FaLinkedin
     },
     {
