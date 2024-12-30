@@ -1,4 +1,5 @@
 import About from "./components/About";
+import EducationDetails from "./components/EducationDetails";
 import FeaturedProjects from "./components/FeaturedProjects";
 import Navbar from "./components/Navbar";
 import TechnicalStacks from "./components/TechnicalStacks";
@@ -25,6 +26,9 @@ export default function Home() {
       </div>
       <div>
         <FeaturedProjects/>
+      </div>
+      <div>
+        <EducationDetails/>
       </div>
     </div>
   );

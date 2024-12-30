@@ -6,7 +6,7 @@ import LanguageTag from '../LanguageTag'
 
 function ProjectCard({icon, projectLink, title, description, stacks}:{icon: IconType, projectLink?: string, title: string, description: string, stacks: string[]}) {
   return (
-    <div className={`bg-[#262626] flex flex-col gap-2 font-sans p-6 rounded-xl hover:bg-neutral-800/60 hover:transform transition-all`}>
+    <div className={`bg-[#262626] flex flex-col gap-2 font-sans p-6 rounded-xl hover:scale-[1.01] hover:bg-neutral-800/60 hover:transform transition-all`}>
         <div className='flex flex-row items-center justify-between'>
             <div className='text-green-400 text-2xl'>{React.createElement(icon)}</div>
             <div>
