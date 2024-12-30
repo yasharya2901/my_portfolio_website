@@ -89,13 +89,13 @@ function ContactSection() {
                         <div className="ml-8">
                         <span className="text-purple-400">return</span>{" "}
                         <span className="text-blue-400">
-                            "ASAP! (Running on asyncio and espresso ☕)"
+                            {`"ASAP! (Running on asyncio and espresso ☕)"`}
                         </span>
                         </div>
                         <div className="ml-4">
                         <span className="text-purple-400">return</span>{" "}
                         <span className="text-blue-400">
-                            "Soon (after a quick coffee coroutine)"
+                            {`"Soon (after a quick coffee coroutine)"`}
                         </span>
                         </div>
 
