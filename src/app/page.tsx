@@ -2,7 +2,6 @@ import About from "./components/About";
 import ContactSection from "./components/ContactSection";
 import EducationDetails from "./components/EducationDetails";
 import FeaturedProjects from "./components/FeaturedProjects";
-import Footer from "./components/Footer";
 import FunCorner from "./components/FunCorner";
 import Navbar from "./components/Navbar";
 import TechnicalStacks from "./components/TechnicalStacks";
