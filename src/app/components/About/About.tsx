@@ -1,7 +1,9 @@
+import { useScroll } from '@/app/context/ScrollContext';
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 
 function About() {
+  const {scrollToSection} = useScroll();
   return (
     <div className='flex flex-col'>
         <div className='text-[#4ADE80] py-2 mt-16'>Hello World! I&apos;m</div>
@@ -11,12 +13,12 @@ function About() {
         <div className='text-[#797979] text-lg'>Currently exploring the world of backend architecture and continuously</div>
         <div className='text-[#797979] text-lg'>refining my skills to build robust, scalable systems.</div>
         <div className='flex flex-row my-10'>
-          <button className='text-white bg-[#42d477] hover:bg-[#3ab366] duration-100 ease-in rounded-lg'>
+          <button onClick={() => scrollToSection('projects')} className='text-white bg-[#42d477] hover:bg-[#3ab366] duration-100 ease-in rounded-lg'>
             <div className='flex flex-row justify-center items-center py-3 px-2'>
               <span className='px-5'>View My Work</span> <FaArrowRight /> 
             </div>
           </button>
-          <button className='text-gray-500 border-2 border-neutral-500 hover:text-gray-300 hover:border-neutral-400 duration-100 ease-in rounded-lg mx-5'>
+          <button onClick={() => scrollToSection('contact')} className='text-gray-500 border-2 border-neutral-500 hover:text-gray-300 hover:border-neutral-400 duration-100 ease-in rounded-lg mx-5'>
             <div className='flex flex-row justify-center items-center py-3 px-4'>
               <span className='px-2'>Let&apos;s Connect</span> <FaArrowRight /> 
             </div>
