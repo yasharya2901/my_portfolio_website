@@ -3,10 +3,20 @@ import ExperienceCard from '../ExperienceCard'
 
 const workExperienceObj = [
     {
+        fileName: 'sde1.service.ts',
+        role: 'SDE 1',
+        company: 'Quartic.ai',
+        duration: 'Feb 2025 - Present',
+        points: [
+          "Working on the backend services in Python"
+        ],
+        techStacks: ["Python", "Django", "Go", "React", "AWS", "Kubernetes", "Docker"]
+    },
+    {
         fileName: 'backend.service.ts',
-        role: 'Backend Engineer',
+        role: 'SDE Intern',
         company: 'Wealthy',
-        duration: 'Aug 2024 - Present',
+        duration: 'Aug 2024 - Feb 2025',
         points: ["Created and optimized Go microservices for real-time financial data processing", "Integrated Slack bots for automated reporting and team communication", "Developed scalable Django microservices for insurance domain"],
         techStacks: ["Go", "Django", "AWS", "Microservices", "Docker"]
     },

@@ -8,8 +8,8 @@ function About() {
         <div className='text-white font-extrabold text-6xl py-4'>Yash Arya</div>
         <div className='text-[#7c7c7c] text-3xl font-medium py-6'>Backend Engineer && Problem Solver</div>
         <div className='text-[#797979] text-lg'>I write code that makes servers happy and databases efficient.</div>
-        <div className='text-[#797979] text-lg'>Currently crafting microservices at Wealthy, where I turn</div>
-        <div className='text-[#797979] text-lg'>coffee into Go code.</div>
+        <div className='text-[#797979] text-lg'>Currently exploring the world of backend architecture and continuously</div>
+        <div className='text-[#797979] text-lg'>refining my skills to build robust, scalable systems.</div>
         <div className='flex flex-row my-10'>
           <button className='text-white bg-[#42d477] hover:bg-[#3ab366] duration-100 ease-in rounded-lg'>
             <div className='flex flex-row justify-center items-center py-3 px-2'>

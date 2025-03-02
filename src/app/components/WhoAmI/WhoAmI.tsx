@@ -28,7 +28,7 @@ function AboutMe() {
             </div>
             <div className={`flex flex-col gap-6 mt-6 text-neutral-300`}>
                 <p>
-                    {`Currently building the future of fintech at Wealthy, where I architect and develop Go microservices that handle real-time financial data. My tech stack includes the Go-Gin Framework, Django, and a variety of cloud-native tools.`}
+                    {`Currently working at Quartic.ai, where I architect and develop data-driven solutions that process and analyze large-scale datasets in real-time. My work revolves around creating efficient, scalable systems using modern technologies and cloud-native tools.`}
                 </p>
                 <p>
                     {`My approach to engineering is like my approach to solving a Rubik's cube - methodical, pattern-oriented, and occasionally involves staying up too late trying to figure out why something isn't aligned properly.`}

@@ -7,7 +7,7 @@ import { MdWeb } from 'react-icons/md'
 import { LiaToolsSolid } from 'react-icons/lia'
 
 const programmingLanguages = [
-    {tag: 'Go', comment: "// My daily driver"},
+    {tag: 'Go', comment: "// My go-to for performance"},
     {tag: 'Java', comment: "// For when I miss semicolons"},
     {tag: 'Python', comment: "// Because readability counts"},
     {tag: 'C++', comment: "// For memory lane trips"},
