@@ -27,23 +27,23 @@ const contactMethods = [
 ]
 
 function ContactSection() {
-    const [formDetails, setFormDetails] = React.useState({
-        name: "",
-        email: "",
-        message: ""
-    })
+    // const [formDetails, setFormDetails] = React.useState({
+    //     name: "",
+    //     email: "",
+    //     message: ""
+    // })
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
-        setFormDetails((prevDetails) => ({
-            ...prevDetails,
-            [name]: value
-        }));
-    }
+    // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    //     const { name, value } = e.target;
+    //     setFormDetails((prevDetails) => ({
+    //         ...prevDetails,
+    //         [name]: value
+    //     }));
+    // }
 
-    const handleClick = () => {
-        console.log(formDetails)
-    }
+    // const handleClick = () => {
+    //     console.log(formDetails)
+    // }
 
   return (
     <div className='bg-[#262626] font-sans pb-16'>
