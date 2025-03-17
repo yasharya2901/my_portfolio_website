@@ -101,8 +101,8 @@ function ContactSection() {
 
                 </div>
             </div>
-            <div className='bg-[#171717] font-fira p-6 rounded-xl hover:transform transition-all max-w-5xl mx-auto mt-8 px-6'>
-                {/* Contact Form */}
+            {/* <div className='bg-[#171717] font-fira p-6 rounded-xl hover:transform transition-all max-w-5xl mx-auto mt-8 px-6'>
+                {/* Contact Form *
                 <div className='font-fira text-neutral-500'>{`// Send me a message`}</div>
 
                 <div className='flex flex-col gap-4 mt-4'>
@@ -123,7 +123,7 @@ function ContactSection() {
                 <div className='flex flex-col gap-4 mt-4'>
                     <button className='bg-green-400 text-white font-fira p-4 rounded-xl hover:transform transition-all hover:bg-green-500' onClick={handleClick}>{`sendMessage()`}</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )
