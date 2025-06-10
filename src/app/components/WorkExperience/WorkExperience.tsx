@@ -3,12 +3,25 @@ import ExperienceCard from '../ExperienceCard'
 
 const workExperienceObj = [
     {
+      fileName: 'sde1.service.ts',
+      role: 'SDE 1',
+      company: 'Signzy',
+      duration: 'Jun 2025 - Present',
+      points: [
+        "Working with multistack systems"
+      ],
+      techStacks: ["Go", "Python", "Node.js", "Rust"]
+    },
+    {
         fileName: 'sde1.service.ts',
         role: 'SDE 1',
         company: 'Quartic.ai',
-        duration: 'Feb 2025 - Present',
+        duration: 'Feb 2025 - May 2025',
         points: [
-          "Working on the backend services in Python"
+          "Worked with Djano-based web services",
+          "Implemented SMTP feature to enable automated email notification",
+          "Used Celery for asynchronous task execution",
+          "Integrated Flower API to monitor the Celery tasks"
         ],
         techStacks: ["Python", "Django", "Go", "React", "AWS", "Kubernetes", "Docker"]
     },
